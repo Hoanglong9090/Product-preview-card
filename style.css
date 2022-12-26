@@ -70,12 +70,41 @@ p {
 .cart-icon {
   margin-right: 5px;
 }
+@media screen and (max-width:375px){
+  .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15%;
+  width: 20em;
+  height: 38em;
+
+}
+  .desktop-img {
+      display: none;
+  }
+  .container-left img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 19em;
+}
+.container-right {
+  margin: 10px 5px 5px 5px ;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cart {
+  width: 100%;
+  margin-bottom:40px ;
+}
+}
 @media screen and (max-width:550px){
   .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 15%;
   width: 20em;
   height: 38em;
 
