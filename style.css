@@ -27,14 +27,12 @@ body {
   background-color: white;
 }
 p {
-  padding-top: 3px;
-  padding-bottom:3px ;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   color: hsl(0, 0%, 74%);
 }
 .heading {
-  letter-spacing: 2px;
+  letter-spacing:4px;
 }
 .container h3 {
   font-family: 'Fraunces', sans-serif;
@@ -45,6 +43,9 @@ p {
 }
 .container-right {
   margin: 5px 5px 0 10px ;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 .new {
   font-size: 27px;
@@ -87,13 +88,11 @@ p {
   .container-left img {
   border-radius: 10px 10px 0 0;
   width: 100%;
-  height: 19em;
 }
 .container-right {
-  margin: 10px 5px 5px 5px ;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+  gap: 15px;
+  margin-bottom: -25px;
+  padding: 0.5em 0.5em;
 }
 .cart {
   width: 100%;
